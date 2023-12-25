@@ -3,7 +3,7 @@ extern crate rocket;
 
 #[get("/")]
 fn index() -> &'static str {
-    "Hello, Docker! This is my rust program!"
+    "Hello, Docker! This is my rust program!!!"
 }
 
 #[launch]

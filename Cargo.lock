@@ -128,13 +128,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "docker-rust-hello"
-version = "0.1.0"
-dependencies = [
- "rocket",
-]
-
-[[package]]
 name = "either"
 version = "1.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -849,6 +842,13 @@ dependencies = [
  "time",
  "tokio",
  "uncased",
+]
+
+[[package]]
+name = "rust-learn"
+version = "0.1.0"
+dependencies = [
+ "rocket",
 ]
 
 [[package]]
